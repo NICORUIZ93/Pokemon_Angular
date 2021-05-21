@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="card" *ngFor="let item of pokemons">
+    <img src="{{ item.sprites.front_default }}" alt="" />
+    <h3>{{ item.name }}</h3>
+  </div>
+</div>

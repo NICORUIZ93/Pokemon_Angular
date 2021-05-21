@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+}
+body {
+  background: url("./assets/pexels-tetyana-kovyrina-937980.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
